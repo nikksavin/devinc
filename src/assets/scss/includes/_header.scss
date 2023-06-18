@@ -1,4 +1,10 @@
-.header {}
+.header {
+    position: fixed;
+    width: 100%;
+    height: fit-content;
+    left: 0;
+    top: 0;
+}
 
 .container {}
 
@@ -50,5 +56,5 @@
 }
 
 .header-burger {
-    
+    display: none;
 }
