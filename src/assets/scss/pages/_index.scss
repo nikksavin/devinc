@@ -1,0 +1,50 @@
+.hero {}
+
+.section {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {}
+
+.hero-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.hero__left {
+    width: calc(100% / 12 * 6);
+}
+
+.section-left {
+    // width: calc(100% / 12 * 6);
+}
+
+.hero__text {}
+
+.hero__text--small {}
+
+.hero__text--big {}
+
+.hero__text--stack {}
+
+.hero__text--dev {}
+
+.hero__btn {}
+
+.btn-style {}
+
+.btn-style--important {}
+
+.hero__right {
+    width: calc(100% / 12 * 6);
+}
+
+.hero__scene {}

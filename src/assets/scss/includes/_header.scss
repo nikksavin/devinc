@@ -1,0 +1,54 @@
+.header {}
+
+.container {}
+
+.header-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.header__logo {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+.header__nav {
+    display: flex;
+
+    ul {
+        display: flex;
+        column-gap: 40px;
+    }
+
+    li {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        text-transform: uppercase;
+    }
+
+}
+
+.header__request {}
+
+.btn-style {}
+
+.btn-style--request {
+    img {
+        margin-left: 10px;
+        width: 28px;
+        height: 28px;
+    }
+
+}
+
+.header-burger {
+    
+}
